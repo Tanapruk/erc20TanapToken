@@ -6,7 +6,7 @@ module.exports = {
 		"name": "name",
 		"outputs": [
 			{
-				"name": "",
+				"name": "", 
 				"type": "string"
 			}
 		],
