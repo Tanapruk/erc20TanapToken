@@ -1,6 +1,6 @@
 const Eth = require('web3-eth')
 const eth = new Eth(`https://ropsten.infura.io/${process.env.INFURA_API_KEY}`)
-const { abi } = require('./generated_abi')
+const { abi } = require('./generated_tanaptoken_abi')
 const abiDecoder = require('abi-decoder')
 //the transaction that create contract
 abiDecoder.addABI(abi)
